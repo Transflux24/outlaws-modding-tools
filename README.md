@@ -2,6 +2,8 @@
 
 Source code and field guides for investigating the Windows PC release of Star Wars Outlaws. Use the tools to load a controlled loose-file mod, inspect Snowdrop graph exports, and record what the game does during a repeatable test.
 
+AI was used in developing these tools.
+
 | Tool | What it does |
 | --- | --- |
 | [Snowdrop BV2](tools/snowdrop-bv2/) | Inspect FFBV2 files, map selected binary pools, and generate narrow, hash-checked weapon UI patches. |
