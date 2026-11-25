@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snowdrop-bv2"
+version = "0.1.0"
+description = "Guarded Snowdrop FFBV2 analysis and targeted binary patching"
+requires-python = ">=3.8"
+
+[project.scripts]
+snowdrop-bv2 = "snowdrop_bv2.cli:main"
+
